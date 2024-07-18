@@ -170,7 +170,7 @@ header .line {
 }
 .area3--content {
     padding: 200px 80px;
-    background-image: url('./bg2.jpg');
+    background-image: url('.csd/bg2.jpg');
     background-size: cover;
     background-position: left;
 }
