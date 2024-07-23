@@ -4,7 +4,7 @@ class Car {
        this.modelo = modelo
        this.ano = ano 
     }
-    exibiInfo() {
+    exibirInfo() {
         return `Carro ${this.marca} ${this.modelo} ${this.ano}`
     }
 }
@@ -20,5 +20,5 @@ class EletriCar extends Car {
 }
 
 const meuCarroEletrico = new EletriCar('Tesla', 'Model S', 2022, 100);
-console.log(meuCarroEletrico.exibiInfo())
+console.log(meuCarroEletrico.exibirInfo())
 console.log(meuCarroEletrico.exibirBateria())
