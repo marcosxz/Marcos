@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let nome = prompt("Qual é o seu nome?");
+        alert(`Olá, ${nome}! Bem-vindo(a)!`)
+
+        let num1 = prompt("Digite o primeiro número:");
+        let num2 = prompt("Digite o segundo número:");
+
+        let resultado = parseFloat(num1) + parseFloat(num2);
+        alert(`A soma dos números é: ${resultado}`)
+
+        let idade = prompt("Qual é a sua idade?");
+
+        if (parseInt(idade) >= 18) {
+            alert("Você é maior de idade.")
+        } else {
+            alert("Você é menor de idade.")
+        }
+
+        let numero = prompt("Digite um número:")
+
+        if (parseInt(numero) % 2 === 0) {
+            alert("O número é par.");
+        } else {
+            alert("O número é ímpar.")
+        }
+
+        let idadeAnos = prompt("Digite sua idade em anos:");
+        let idadeDias = parseInt(idadeAnos) * 365;
+
+        alert(`Sua idade em dias é aproximadamente : ${idadeDias} dias.`);
+
+        let string1 = prompt("Digite a primeira string");
+        let string2 = prompt("Digite a segunda string:");
+
+        if (string1 === string2) {
+            alert("As strings são iguais.")
+        } else {
+            alert("As strings são diferentes.")
+        }
+
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
