@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <p>Habilidade : ${pokemomAbilities} </p>
             <img src="${pokemomImage}"/>
             `
-
+            //0 - 1025
         })
 
     });
