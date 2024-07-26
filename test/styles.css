@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./bgpokemom.jfif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#pokemonDetails {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+#pokemonDetails h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #000000;
+    background-color: white;
+}
+
+#pokemonDetails p {
+    margin: 10px 0;
+    font-size: 16px;
+    background-color: white;
+}
+
+#pokemonDetails img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
