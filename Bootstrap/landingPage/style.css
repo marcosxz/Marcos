@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: url('https://img.freepik.com/fotos-premium/fundo-roxo-e-azul-com-fundo-azul-escuro-e-o-texto-no-1_873925-18022.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+header .btn {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #343a40;
+}
